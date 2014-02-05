@@ -28,5 +28,6 @@
       </config-file>
       <header-file src="src/ios/deviceIdentifier.h" />
       <source-file src="src/ios/deviceIdentifier.m" />
+      <framework src="AdSupport.framework" weak="true" />
     </platform>
 </plugin>
