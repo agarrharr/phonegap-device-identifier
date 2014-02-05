@@ -8,7 +8,7 @@ Installation
 
 Using the Phonegap CLI (with phonegap version 3+) run:
 
-    phonegap local plugin add https://github.com/aharris/phonegap-device-identifier
+    phonegap local plugin add https://github.com/aharris88/phonegap-device-identifier
 
 Example Usage
 =====================
