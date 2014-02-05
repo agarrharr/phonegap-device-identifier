@@ -42,3 +42,5 @@ var deviceIdentifier = function() {
 
   return public;
 }();
+
+module.exports = deviceIdentifier;
