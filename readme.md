@@ -13,7 +13,10 @@ Using the Phonegap CLI (with phonegap version 3+) run:
 Example Usage
 =====================
 
-    var uniqueId = deviceIdentifier.getIdentifier();
+    var deviceUUID = device.uuid;
+    deviceIdentifier.getIdentifier(function(uuid) {
+      deviceUUID = uuid;
+    });
 
 FAQ
 =====================

@@ -42,8 +42,3 @@ var deviceIdentifier = function() {
 
   return public;
 }();
-
-var deviceUUID = device.uuid;
-deviceIdentifier.getIdentifier(function(uuid) {
-  deviceUUID = uuid;
-});
